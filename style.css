@@ -1,0 +1,18 @@
+body{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background-color: aliceblue;
+}
+.gallery-container{
+    display: flex;
+}
+.gallery-item {
+    min-width: 100%;
+    box-sizing: border-box;
+}
+.gallery-item img{
+    width: 100%;
+    height:auto;
+    display: block;
+}
