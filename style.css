@@ -28,3 +28,22 @@ body {
     border-radius: 8px;
     box-shadow: trasform 0.5s ease-in-out;
 }
+.controls{
+    position: absolute;
+    top: 50%;
+    width: 100%;
+    display:flex;
+    justify-content: space-between;
+    transform: translateY(-50%);
+}
+.controls button{
+    background: rgba(0, 0, 0, 0.5);
+    border: none;
+    color: white;
+    padding: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.controls button:hover{
+    background: rgba(0, 0, 0, 0.8);
+}
